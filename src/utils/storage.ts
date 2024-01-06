@@ -1,4 +1,4 @@
-const storagePrefix = 'vite_template_';
+const storagePrefix = 'example_';
 
 const storage = {
   getToken: () => {
