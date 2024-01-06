@@ -8,13 +8,14 @@ import { Spinner } from '@nayhoo/components';
 // import { MainLayout } from '@/components/Layout';
 // import { lazyImport } from '@/utils/lazyImport';
 
+// eslint-disable-next-line react-refresh/only-export-components
 const App = () => {
   return (
     // <MainLayout>
     <Suspense
       fallback={
         <div className="h-full w-full flex items-center justify-center">
-          <Spinner size="xl" />
+          <Spinner size="2" />
         </div>
       }
     >
